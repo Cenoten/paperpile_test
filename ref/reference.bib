@@ -11019,6 +11019,43 @@
   language     = {en}
 }
 
+@ARTICLE{Graber2025-oo,
+  title        = {Resolving data bias improves generalization in binding
+                  affinity prediction},
+  author       = {Graber, David and Stockinger, Peter and Meyer, Fabian and
+                  Mishra, Siddhartha and Horn, Claus and Buller, Rebecca},
+  journaltitle = {Nat. Mach. Intell.},
+  publisher    = {Springer Science and Business Media LLC},
+  volume       = {7},
+  issue        = {10},
+  pages        = {1713--1725},
+  date         = {2025-10-21},
+  abstract     = {The field of computational drug design requires accurate
+                  scoring functions to predict binding affinities for
+                  protein-ligand interactions. However, train-test data leakage
+                  between the PDBbind database and the Comparative Assessment of
+                  Scoring Function benchmark datasets has severely inflated the
+                  performance metrics of currently available deep-learning-based
+                  binding affinity prediction models, leading to overestimation
+                  of their generalization capabilities. Here we address this
+                  issue by proposing PDBbind CleanSplit, a training dataset
+                  curated by a new structure-based filtering algorithm that
+                  eliminates train-test data leakage as well as redundancies
+                  within the training set. Retraining current top-performing
+                  models on CleanSplit caused their benchmark performance to
+                  drop substantially, indicating that the performance of
+                  existing models is largely driven by data leakage. By
+                  contrast, our graph neural network model maintains high
+                  benchmark performance when trained on CleanSplit. Leveraging a
+                  sparse graph modelling of protein-ligand interactions and
+                  transfer learning from language models, our model is able to
+                  generalize to strictly independent test datasets.},
+  urldate      = {2025-11-26},
+  keywords     = {Cheminformatics; Drug discovery; Machine learning; Scientific
+                  data},
+  language     = {en}
+}
+
 @ARTICLE{De-Winter2025-lw,
   title        = {Modelling and design of transcriptional enhancers},
   author       = {De Winter, Seppe and Konstantakos, Vasileios and Aerts, Stein},
